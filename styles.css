@@ -14,7 +14,6 @@ body {
   background-color: white;
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 900px;
 }
 
 .header {
@@ -71,16 +70,212 @@ body {
   border-width: 1px;
   display: flex;
   flex-direction: row;
-  padding: 0;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 13px;
+  margin: 0;
 }
 .col1-content {
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .col2-content {
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .col3-content {
-  margin-top: 0px;
+  margin: 0px;
+}
+
+.cs, .bsit {
+  font-weight: normal;
+}
+
+.categories {
+  background-color: rgb(197, 198, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900 ;
+  font-size: 12px;
+  padding: 0 15px 0 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: 1px;
+  margin: 0;
+}
+
+.unit {
+  text-align: center;
+  margin: 0;
+  line-height: 20px;
+  word-spacing: 9px;
+}
+
+.code {
+  margin: 0;
+}
+
+.sub-t {
+  margin: 0;
+}
+
+.sect {
+  margin: 0;
+}
+
+.sched {
+  margin: 0;
+}
+
+.sign {
+  margin: 0;
+}
+
+.unit-cat {
+  margin: 0;
+}
+
+.subjects-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding: 10px 10px 0 10px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+}
+.sub-code {
+  margin: 0 0 0 9px;
+}
+.course-title {
+  margin: 0 0 0 40px;
+}
+.course-units {
+  margin: 0 0 0 10px;
+  word-spacing: 30px;
+}
+.block {
+  margin: 0 0 0 90px;
+}
+
+.class-sched {
+  margin: 0 0 0 60px;
+
+}
+
+.instructors {
+  margin: 0 0 0 40px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 0 200px;
+}
+
+.total-lec {
+  margin: 0 0 0 37px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+}
+
+.total-lab {
+  margin: 0 0 0 20px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+}
+
+.total-cred {
+  margin: 0 0 0 20px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+}
+
+.note {
+  font-size: 11px;
+  margin: 10px 0 10px 5px;
+  font-style: italic;
+}
+
+.title-1 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 0 30px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(197, 198, 236);
+  padding: 1.5px;
+  width: 400px;
+}
+
+.payments {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  width: 402.5px;
+  border-top: 1px;
+  margin: 0 0 0 30px;
+}
+
+.amount {
+  margin: 0 0 0 40px;
+}
+
+.fees {
+  margin: 0 0 0 10px;
+}
+
+.calculation {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 0 0 30px;
+  border-top: 1px;
+  border-bottom: 1px;
+  width: 402.5px;
+}
+
+.total-fees{
+  margin: 0 0 0 20px;
+}
+
+.total-amount {
+  margin: 0 0 0 160px;
+}
+
+.pay-sched {
+  font-size: 11px;
+  margin: 0 0 0 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: 1px;
+  width: 402.5px;
+  text-align: center;
 }
